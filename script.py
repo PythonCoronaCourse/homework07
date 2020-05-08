@@ -13,11 +13,13 @@ neoliberal_party = Party("BY ŻYŁO SIĘ .LEPIEJ", 200)
 print(len(communist_party))  # 130
 print(len(philatelists_party))  # 10
 print(communist_party == libertarian_party)  # False
-print(communist_party >= neoliberal_party)  # False
+print(communist_party > neoliberal_party)  # False
 print(communist_party < neoliberal_party)  # True
 print(communist_party == libertarian_party)  # False
 print(philatelists_party == libertarian_party)  # True
-print(philatelists_party >= libertarian_party)  # True
+print(philatelists_party == libertarian_party)  # True
 print(neoliberal_party > communist_party)  # True
 print(neoliberal_party != communist_party)  # True
-    
+parties = [communist_party, libertarian_party, philatelists_party, neoliberal_party]
+print(max(parties).name)  # BY ŻYŁO SIĘ .LEPIEJ
+print(min(parties).name)  # Selfish Pricks
