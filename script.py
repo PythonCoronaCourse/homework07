@@ -20,4 +20,6 @@ print(philatelists_party == libertarian_party)  # True
 print(philatelists_party >= libertarian_party)  # True
 print(neoliberal_party > communist_party)  # True
 print(neoliberal_party != communist_party)  # True
-    
+parties = [communist_party, libertarian_party, philatelists_party, neoliberal_party]
+print(max(parties).name)  # BY ŻYŁO SIĘ .LEPIEJ
+print(min(parties).name)  # Selfish Pricks

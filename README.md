@@ -23,6 +23,8 @@ True
 True
 True
 True
+BY ŻYŁO SIĘ .LEPIEJ
+Selfish Pricks
 ```
 1. Add your changes to your local repository with `git add script.py` and **commit** them.
 1. Push your homework with `git push -u origin your-name` (again remember to provide your name).
