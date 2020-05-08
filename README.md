@@ -10,7 +10,7 @@
 
 ### Homework completion
 1. Open `script.py` file. 
-1. Inside the Party class write the implementation of *dunder* (double underscore) methods, so that len function and comparisons below produce results according to the comments.
+1. Inside the Party class write the implementation of *dunder* (double underscore) methods (at least three are needed), so that len function and comparisons below produce results according to the comments.
 1. At the end running the script should result in printing of:
 ```
 130
