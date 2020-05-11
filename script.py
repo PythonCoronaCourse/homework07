@@ -3,6 +3,15 @@ class Party:
         self.name = name
         self.members = members
 
+    def __len__(self):
+        return self.members
+
+    def __eq__(self, other):
+        return self.members == other.members
+
+    def __lt__(self, other):
+        return self.members < other.members
+
 
 communist_party = Party("People's Party", 130)
 libertarian_party = Party("Selfish Pricks", 10)
