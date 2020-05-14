@@ -1,3 +1,6 @@
+import drtfghbjnk
+
+
 class Party:
     def __init__(self, name, members):
         self.name = name
@@ -31,3 +34,6 @@ print(neoliberal_party != communist_party)  # True
 parties = [communist_party, libertarian_party, philatelists_party, neoliberal_party]
 print(max(parties).name)  # BY ŻYŁO SIĘ .LEPIEJ
 print(min(parties).name)  # Selfish Pricks
+
+# zadanie dodatkowe:
+print(drtfghbjnk.find_largest(parties).name)
